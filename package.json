@@ -1,94 +1,95 @@
 {
-  "recipes": {
-    "-R1Abc123def": {
-      "id": "-R1Abc123def",
-      "image": "https://images.unsplash.com/photo-1561047029-6c50c7c783bb?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=MnwzNjUyOXwwfDF8c2VhcmNofDE2fHx2ZWdhbiUyMGZvb2R8ZW58MHx8fHwxNjQ5NzUyMjYx&ixlib=rb-1.2.1&q=80&w=400",
-      "name": "Creamy Mushroom Pasta",
-      "username": "chef_jamie",
-      "shortDescription": "A rich and creamy pasta with mushrooms.",
-      "mealType": "vegetarian",
-      "timeToPrepare": "30 minutes"
+  "posts": {
+    "-P1Abc123def": {
+      "id": "-P1Abc123def",
+      "image": "https://images.unsplash.com/photo-1572441713438-5f5383f6c8e6?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=MnwzNjUyOXwwfDF8c2VhcmNofDEwfHxib3dsfGVufDB8fHx8MTYzOTc1MjI2MQ&ixlib=rb-1.2.1&q=80&w=400",
+      "title": "Avocado Toast with Eggs",
+      "shortDescription": "Healthy avocado toast topped with poached eggs.",
+      "typeOfMeal": "breakfast",
+      "timeToCook": "10 minutes",
+      "postedAgo": "2 hours ago",
+      "user": "healthy_eats",
+      "userPicture": "https://images.unsplash.com/photo-1507120366492-48a5b01c88a1?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=MnwzNjUyOXwwfDF8c2VhcmNofDF8fHBlcnNvbnxlbnwwfHx8fDE2OTc1MjI2MQ&ixlib=rb-1.2.1&q=80&w=200",
+      "likes": 120,
+      "comments": 5
     },
-    "-R2Ghi456jkl": {
-      "id": "-R2Ghi456jkl",
-      "image": "https://images.unsplash.com/photo-1589301760014-d929f3979dbc?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=MnwzNjUyOXwwfDF8c2VhcmNofDl8fHZlZ2FuJTIwYm93bHxlbnwwfHx8fDE2NDk3NTIyNjE&ixlib=rb-1.2.1&q=80&w=400",
-      "name": "Vegan Buddha Bowl",
-      "username": "plantpower",
-      "shortDescription": "Colorful bowl with quinoa, veggies, and tofu.",
-      "mealType": "vegan",
-      "timeToPrepare": "20 minutes"
+    "-P2Def456ghi": {
+      "id": "-P2Def456ghi",
+      "image": "https://images.unsplash.com/photo-1535958636473-2056d9404701?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=MnwzNjUyOXwwfDF8c2VhcmNofDE1fHxtYWNhcm9uc3xlbnwwfHx8fDE2OTc1MjI2MQ&ixlib=rb-1.2.1&q=80&w=400",
+      "title": "Vegan Buddha Bowl",
+      "shortDescription": "Colorful bowl with quinoa, chickpeas, and greens.",
+      "typeOfMeal": "lunch",
+      "timeToCook": "25 minutes",
+      "postedAgo": "5 hours ago",
+      "user": "plantbased_bites",
+      "userPicture": "https://images.unsplash.com/photo-1520974730397-8a48c0d57659?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=MnwzNjUyOXwwfDF8c2VhcmNofDF8fHBlcnNvbnxlbnwwfHx8fDE2OTc1MjI2MQ&ixlib=rb-1.2.1&q=80&w=200",
+      "likes": 300,
+      "comments": 12
     },
-    "-R3Jkl789mno": {
-      "id": "-R3Jkl789mno",
-      "image": "https://images.unsplash.com/photo-1571091718767-18c7c7c39715?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=MnwzNjUyOXwwfDF8c2VhcmNofDF8fHBhc3RhfGVufDB8fHx8MTY0OTc1MjI2MQ&ixlib=rb-1.2.1&q=80&w=400",
-      "name": "Vegetarian Chili",
-      "username": "spiceking",
-      "shortDescription": "A hearty and spicy vegetarian chili.",
-      "mealType": "vegetarian",
-      "timeToPrepare": "45 minutes"
+    "-P3Ghi789jkl": {
+      "id": "-P3Ghi789jkl",
+      "image": "https://images.unsplash.com/photo-1516685018646-54999f160ae3?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=MnwzNjUyOXwwfDF8c2VhcmNofDE2fHxsdW5jaHxlbnwwfHx8fDE2OTc1MjI2MQ&ixlib=rb-1.2.1&q=80&w=400",
+      "title": "Grilled Veggie Sandwich",
+      "shortDescription": "A savory sandwich packed with grilled veggies.",
+      "typeOfMeal": "lunch",
+      "timeToCook": "15 minutes",
+      "postedAgo": "1 day ago",
+      "user": "veggie_delight",
+      "userPicture": "https://images.unsplash.com/photo-1544723795-3fb6469f5b39?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=MnwzNjUyOXwwfDF8c2VhcmNofDJ8fHBlcnNvbnxlbnwwfHx8fDE2OTc1MjI2MQ&ixlib=rb-1.2.1&q=80&w=200",
+      "likes": 200,
+      "comments": 8
     },
-    "-R4Mno123pqr": {
-      "id": "-R4Mno123pqr",
-      "image": "https://images.unsplash.com/photo-1556910103-1e00b2b17d41?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=MnwzNjUyOXwwfDF8c2VhcmNofDh8fHBhc3RhfGVufDB8fHx8MTY0OTc1MjI2MQ&ixlib=rb-1.2.1&q=80&w=400",
-      "name": "Grilled Salmon Salad",
-      "username": "seafoodlover",
-      "shortDescription": "Fresh salad topped with grilled salmon.",
-      "mealType": "pescatarian",
-      "timeToPrepare": "25 minutes"
+    "-P4Jkl456mno": {
+      "id": "-P4Jkl456mno",
+      "image": "https://images.unsplash.com/photo-1603570420969-968efcb8a37e?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=MnwzNjUyOXwwfDF8c2VhcmNofDF8fGJyZWFrZmFzdCUyMGZvb2R8ZW58MHx8fHwxNjk3NTIyNjE&ixlib=rb-1.2.1&q=80&w=400",
+      "title": "Banana Pancakes",
+      "shortDescription": "Fluffy pancakes with fresh banana slices.",
+      "typeOfMeal": "breakfast",
+      "timeToCook": "20 minutes",
+      "postedAgo": "2 days ago",
+      "user": "morning_munchies",
+      "userPicture": "https://images.unsplash.com/photo-1559622213-6e9e0c52c11e?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=MnwzNjUyOXwwfDF8c2VhcmNofDV8fHBlcnNvbnxlbnwwfHx8fDE2OTc1MjI2MQ&ixlib=rb-1.2.1&q=80&w=200",
+      "likes": 350,
+      "comments": 15
     },
-    "-R5Pqr456stu": {
-      "id": "-R5Pqr456stu",
-      "image": "https://images.unsplash.com/photo-1490645935967-10de6ba17061?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=MnwzNjUyOXwwfDF8c2VhcmNofDJ8fHZlZ2FuJTIwc3VzaGl8ZW58MHx8fHwxNjQ5NzUyMjYx&ixlib=rb-1.2.1&q=80&w=400",
-      "name": "Sushi Roll Platter",
-      "username": "japanbite",
-      "shortDescription": "Assorted vegan sushi rolls with fresh veggies.",
-      "mealType": "vegan",
-      "timeToPrepare": "50 minutes"
+    "-P5Mno123pqr": {
+      "id": "-P5Mno123pqr",
+      "image": "https://images.unsplash.com/photo-1586015554655-d6f771e0d89b?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=MnwzNjUyOXwwfDF8c2VhcmNofDF8fGRpbm5lciUyMGZvb2R8ZW58MHx8fHwxNjk3NTIyNjE&ixlib=rb-1.2.1&q=80&w=400",
+      "title": "Lentil Bolognese",
+      "shortDescription": "Rich lentil sauce served over pasta.",
+      "typeOfMeal": "dinner",
+      "timeToCook": "35 minutes",
+      "postedAgo": "3 days ago",
+      "user": "earthy_eats",
+      "userPicture": "https://images.unsplash.com/photo-1532075470603-7da1ff8f9b91?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=MnwzNjUyOXwwfDF8c2VhcmNofDE4fHBlcnNvbnxlbnwwfHx8fDE2OTc1MjI2MQ&ixlib=rb-1.2.1&q=80&w=200",
+      "likes": 280,
+      "comments": 10
     },
-    "-R6Stu789vwx": {
-      "id": "-R6Stu789vwx",
-      "image": "https://images.unsplash.com/photo-1559561853-53d2b33fe3a6?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=MnwzNjUyOXwwfDF8c2VhcmNofDR8fHNwYWdoZXR0aXxlbnwwfHx8fDE2NDk3NTIyNjE&ixlib=rb-1.2.1&q=80&w=400",
-      "name": "Avocado Toast with Spinach",
-      "username": "healthychef",
-      "shortDescription": "Crispy toast with avocado and fresh greens.",
-      "mealType": "vegetarian",
-      "timeToPrepare": "10 minutes"
+    "-P6Pqr456stu": {
+      "id": "-P6Pqr456stu",
+      "image": "https://images.unsplash.com/photo-1576839458434-30ffb7d69a74?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=MnwzNjUyOXwwfDF8c2VhcmNofDV8fGNoZWYlMjBwb3N0fGVufDB8fHx8MTY5NzUyMjYx&ixlib=rb-1.2.1&q=80&w=400",
+      "title": "Green Smoothie Bowl",
+      "shortDescription": "Refreshing smoothie bowl with fresh fruit.",
+      "typeOfMeal": "snack",
+      "timeToCook": "5 minutes",
+      "postedAgo": "5 days ago",
+      "user": "smoothie_queen",
+      "userPicture": "https://images.unsplash.com/photo-1521335629791-ce4aec67dd49?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=MnwzNjUyOXwwfDF8c2VhcmNofDI1fHBlcnNvbnxlbnwwfHx8fDE2OTc1MjI2MQ&ixlib=rb-1.2.1&q=80&w=200",
+      "likes": 150,
+      "comments": 4
     },
-    "-R7Vwx123yzA": {
-      "id": "-R7Vwx123yzA",
-      "image": "https://images.unsplash.com/photo-1551782450-a2132b4ba21d?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=MnwzNjUyOXwwfDF8c2VhcmNofDEyfHx2ZWdhbiUyMG5vb2RsZXN8ZW58MHx8fHwxNjQ5NzUyMjYx&ixlib=rb-1.2.1&q=80&w=400",
-      "name": "Noodle Stir Fry",
-      "username": "noodlemaster",
-      "shortDescription": "Quick stir fry with noodles and vegetables.",
-      "mealType": "vegan",
-      "timeToPrepare": "15 minutes"
-    },
-    "-R8Abc456def": {
-      "id": "-R8Abc456def",
-      "image": "https://images.unsplash.com/photo-1592928300338-0e4fa09b1d4b?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=MnwzNjUyOXwwfDF8c2VhcmNofDF8fGZpc2glMjBkaXNofGVufDB8fHx8MTY0OTc1MjI2MQ&ixlib=rb-1.2.1&q=80&w=400",
-      "name": "Grilled Fish Tacos",
-      "username": "tacolover",
-      "shortDescription": "Tacos filled with fresh, grilled fish.",
-      "mealType": "pescatarian",
-      "timeToPrepare": "20 minutes"
-    },
-    "-R9Xyz789ghi": {
-      "id": "-R9Xyz789ghi",
-      "image": "https://images.unsplash.com/photo-1565895405138-1b62460ff0bf?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=MnwzNjUyOXwwfDF8c2VhcmNofDI1fHx2ZWdhbiUyMHBpenphfGVufDB8fHx8MTY0OTc1MjI2MQ&ixlib=rb-1.2.1&q=80&w=400",
-      "name": "Vegan Margherita Pizza",
-      "username": "pizzaplant",
-      "shortDescription": "Classic Margherita pizza with vegan cheese.",
-      "mealType": "vegan",
-      "timeToPrepare": "40 minutes"
-    },
-    "-R10Def123stu": {
-      "id": "-R10Def123stu",
-      "image": "https://images.unsplash.com/photo-1611648666594-d6b7b0c31e74?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=MnwzNjUyOXwwfDF8c2VhcmNofDN8fHZlZ2FuJTIwY3Vycnl8ZW58MHx8fHwxNjQ5NzUyMjYx&ixlib=rb-1.2.1&q=80&w=400",
-      "name": "Coconut Curry Soup",
-      "username": "souplover",
-      "shortDescription": "Creamy coconut-based vegan soup with spice.",
-      "mealType": "vegan",
-      "timeToPrepare": "35 minutes"
+    "-P7Stu789vwx": {
+      "id": "-P7Stu789vwx",
+      "image": "https://images.unsplash.com/photo-1514517316423-e97c7b4dc34e?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=MnwzNjUyOXwwfDF8c2VhcmNofDEwfHxkaW5uZXIlMjBwYXN0YXxlbnwwfHx8fDE2OTc1MjI2MQ&ixlib=rb-1.2.1&q=80&w=400",
+      "title": "Stuffed Bell Peppers",
+      "shortDescription": "Bell peppers stuffed with a savory rice mix.",
+      "typeOfMeal": "dinner",
+      "timeToCook": "30 minutes",
+      "postedAgo": "1 week ago",
+      "user": "veggie_goodness",
+      "userPicture": "https://images.unsplash.com/photo-1552374196-c4e7ffc6e126?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=MnwzNjUyOXwwfDF8c2VhcmNofDR8fHBlcnNvbnxlbnwwfHx8fDE2OTc1MjI2MQ&ixlib=rb-1.2.1&q=80&w=200",
+      "likes": 270,
+      "comments": 6
     }
   }
 }
