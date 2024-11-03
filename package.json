@@ -1,27 +1,94 @@
 {
-  "name": "react-user-crud-locale-storage",
-  "private": true,
-  "version": "0.0.0",
-  "type": "module",
-  "scripts": {
-    "dev": "vite",
-    "build": "vite build",
-    "lint": "eslint . --ext js,jsx --report-unused-disable-directives --max-warnings 0",
-    "preview": "vite preview"
-  },
-  "dependencies": {
-    "react": "^18.3.1",
-    "react-dom": "^18.3.1",
-    "react-router-dom": "^6.26.0"
-  },
-  "devDependencies": {
-    "@types/react": "^18.3.3",
-    "@types/react-dom": "^18.3.0",
-    "@vitejs/plugin-react-swc": "^3.5.0",
-    "eslint": "^8.57.0",
-    "eslint-plugin-react": "^7.34.3",
-    "eslint-plugin-react-hooks": "^4.6.2",
-    "eslint-plugin-react-refresh": "^0.4.7",
-    "vite": "^5.3.4"
+  "recipes": {
+    "-R1Abc123def": {
+      "id": "-R1Abc123def",
+      "image": "https://images.unsplash.com/photo-1561047029-6c50c7c783bb?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=MnwzNjUyOXwwfDF8c2VhcmNofDE2fHx2ZWdhbiUyMGZvb2R8ZW58MHx8fHwxNjQ5NzUyMjYx&ixlib=rb-1.2.1&q=80&w=400",
+      "name": "Creamy Mushroom Pasta",
+      "username": "chef_jamie",
+      "shortDescription": "A rich and creamy pasta with mushrooms.",
+      "mealType": "vegetarian",
+      "timeToPrepare": "30 minutes"
+    },
+    "-R2Ghi456jkl": {
+      "id": "-R2Ghi456jkl",
+      "image": "https://images.unsplash.com/photo-1589301760014-d929f3979dbc?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=MnwzNjUyOXwwfDF8c2VhcmNofDl8fHZlZ2FuJTIwYm93bHxlbnwwfHx8fDE2NDk3NTIyNjE&ixlib=rb-1.2.1&q=80&w=400",
+      "name": "Vegan Buddha Bowl",
+      "username": "plantpower",
+      "shortDescription": "Colorful bowl with quinoa, veggies, and tofu.",
+      "mealType": "vegan",
+      "timeToPrepare": "20 minutes"
+    },
+    "-R3Jkl789mno": {
+      "id": "-R3Jkl789mno",
+      "image": "https://images.unsplash.com/photo-1571091718767-18c7c7c39715?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=MnwzNjUyOXwwfDF8c2VhcmNofDF8fHBhc3RhfGVufDB8fHx8MTY0OTc1MjI2MQ&ixlib=rb-1.2.1&q=80&w=400",
+      "name": "Vegetarian Chili",
+      "username": "spiceking",
+      "shortDescription": "A hearty and spicy vegetarian chili.",
+      "mealType": "vegetarian",
+      "timeToPrepare": "45 minutes"
+    },
+    "-R4Mno123pqr": {
+      "id": "-R4Mno123pqr",
+      "image": "https://images.unsplash.com/photo-1556910103-1e00b2b17d41?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=MnwzNjUyOXwwfDF8c2VhcmNofDh8fHBhc3RhfGVufDB8fHx8MTY0OTc1MjI2MQ&ixlib=rb-1.2.1&q=80&w=400",
+      "name": "Grilled Salmon Salad",
+      "username": "seafoodlover",
+      "shortDescription": "Fresh salad topped with grilled salmon.",
+      "mealType": "pescatarian",
+      "timeToPrepare": "25 minutes"
+    },
+    "-R5Pqr456stu": {
+      "id": "-R5Pqr456stu",
+      "image": "https://images.unsplash.com/photo-1490645935967-10de6ba17061?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=MnwzNjUyOXwwfDF8c2VhcmNofDJ8fHZlZ2FuJTIwc3VzaGl8ZW58MHx8fHwxNjQ5NzUyMjYx&ixlib=rb-1.2.1&q=80&w=400",
+      "name": "Sushi Roll Platter",
+      "username": "japanbite",
+      "shortDescription": "Assorted vegan sushi rolls with fresh veggies.",
+      "mealType": "vegan",
+      "timeToPrepare": "50 minutes"
+    },
+    "-R6Stu789vwx": {
+      "id": "-R6Stu789vwx",
+      "image": "https://images.unsplash.com/photo-1559561853-53d2b33fe3a6?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=MnwzNjUyOXwwfDF8c2VhcmNofDR8fHNwYWdoZXR0aXxlbnwwfHx8fDE2NDk3NTIyNjE&ixlib=rb-1.2.1&q=80&w=400",
+      "name": "Avocado Toast with Spinach",
+      "username": "healthychef",
+      "shortDescription": "Crispy toast with avocado and fresh greens.",
+      "mealType": "vegetarian",
+      "timeToPrepare": "10 minutes"
+    },
+    "-R7Vwx123yzA": {
+      "id": "-R7Vwx123yzA",
+      "image": "https://images.unsplash.com/photo-1551782450-a2132b4ba21d?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=MnwzNjUyOXwwfDF8c2VhcmNofDEyfHx2ZWdhbiUyMG5vb2RsZXN8ZW58MHx8fHwxNjQ5NzUyMjYx&ixlib=rb-1.2.1&q=80&w=400",
+      "name": "Noodle Stir Fry",
+      "username": "noodlemaster",
+      "shortDescription": "Quick stir fry with noodles and vegetables.",
+      "mealType": "vegan",
+      "timeToPrepare": "15 minutes"
+    },
+    "-R8Abc456def": {
+      "id": "-R8Abc456def",
+      "image": "https://images.unsplash.com/photo-1592928300338-0e4fa09b1d4b?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=MnwzNjUyOXwwfDF8c2VhcmNofDF8fGZpc2glMjBkaXNofGVufDB8fHx8MTY0OTc1MjI2MQ&ixlib=rb-1.2.1&q=80&w=400",
+      "name": "Grilled Fish Tacos",
+      "username": "tacolover",
+      "shortDescription": "Tacos filled with fresh, grilled fish.",
+      "mealType": "pescatarian",
+      "timeToPrepare": "20 minutes"
+    },
+    "-R9Xyz789ghi": {
+      "id": "-R9Xyz789ghi",
+      "image": "https://images.unsplash.com/photo-1565895405138-1b62460ff0bf?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=MnwzNjUyOXwwfDF8c2VhcmNofDI1fHx2ZWdhbiUyMHBpenphfGVufDB8fHx8MTY0OTc1MjI2MQ&ixlib=rb-1.2.1&q=80&w=400",
+      "name": "Vegan Margherita Pizza",
+      "username": "pizzaplant",
+      "shortDescription": "Classic Margherita pizza with vegan cheese.",
+      "mealType": "vegan",
+      "timeToPrepare": "40 minutes"
+    },
+    "-R10Def123stu": {
+      "id": "-R10Def123stu",
+      "image": "https://images.unsplash.com/photo-1611648666594-d6b7b0c31e74?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=MnwzNjUyOXwwfDF8c2VhcmNofDN8fHZlZ2FuJTIwY3Vycnl8ZW58MHx8fHwxNjQ5NzUyMjYx&ixlib=rb-1.2.1&q=80&w=400",
+      "name": "Coconut Curry Soup",
+      "username": "souplover",
+      "shortDescription": "Creamy coconut-based vegan soup with spice.",
+      "mealType": "vegan",
+      "timeToPrepare": "35 minutes"
+    }
   }
 }
