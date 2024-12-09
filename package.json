@@ -1,95 +1,103 @@
 {
-  "posts": {
-    "-P1Abc123def": {
-      "id": "-P1Abc123def",
-      "image": "https://feelgoodfoodie.net/wp-content/uploads/2023/09/Avocado-Toast-with-Egg-TIMG.jpg",
-      "title": "Avocado Toast with Eggs",
-      "shortDescription": "Healthy avocado toast topped with poached eggs.",
-      "typeOfMeal": "breakfast",
-      "timeToCook": "10 minutes",
-      "postedAgo": "2 hours ago",
-      "user": "healthy_eats",
-      "userPicture": "https://t4.ftcdn.net/jpg/06/78/09/75/360_F_678097580_mgsNEISedI7fngOwIipYtEU0T6SN8qKv.jpg",
-      "likes": 120,
-      "comments": 5
+  "tasks": {
+    "-T1Feeding123": {
+      "petName": "Alfred",
+      "nameOfTask": "Feeding",
+      "duration": "10 minutes",
+      "date": "2024-12-20",
+      "repeat": "Every day",
+      "notes": "Make sure to add the new dry food.",
+      "amount": "50 grams",
+      "startTime": "09:00",
+      "endTime": "09:10"
     },
-    "-P2Def456ghi": {
-      "id": "-P2Def456ghi",
-      "image": "https://cookieandkate.com/images/2017/10/best-buddha-bowl-recipe-4.jpg",
-      "title": "Vegan Buddha Bowl",
-      "shortDescription": "Colorful bowl with quinoa, chickpeas, and greens.",
-      "typeOfMeal": "lunch",
-      "timeToCook": "25 minutes",
-      "postedAgo": "5 hours ago",
-      "user": "plantbased_bites",
-      "userPicture": "https://img.freepik.com/premium-photo/jar-honey-showcasing-natural-sweetness-natures-nectar-every-jar_1222399-52844.jpg",
-      "likes": 300,
-      "comments": 12
+    "-T2CleanToilet456": {
+      "petName": "Monia",
+      "nameOfTask": "Clean Toilet",
+      "duration": "15 minutes",
+      "date": "2024-12-17",
+      "repeat": "Every Monday",
+      "notes": "Check for new litter clumps to remove.",
+      "amount": "None",
+      "startTime": "14:30",
+      "endTime": "14:45"
     },
-    "-P3Ghi789jkl": {
-      "id": "-P3Ghi789jkl",
-      "image": "https://www.eatingwell.com/thmb/VMxbow8YU-1Ac3MlveW3neQPgfE=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/grilled-veggie-tofu-and-pesto-sandwich-62d31ca15bc241579e2ddaec38e06e1b.jpg",
-      "title": "Grilled Veggie Sandwich",
-      "shortDescription": "A savory sandwich packed with grilled veggies.",
-      "typeOfMeal": "lunch",
-      "timeToCook": "15 minutes",
-      "postedAgo": "1 day ago",
-      "user": "veggie_delight",
-      "userPicture": "https://plus.unsplash.com/premium_photo-1682144187125-b55e638cf286?fm=jpg&q=60&w=3000&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MXx8cG9ydHJhaXQlMjBtYW58ZW58MHx8MHx8fDA%3D",
-      "likes": 200,
-      "comments": 8
+    "-T3GiveBath789": {
+      "petName": "Alfred",
+      "nameOfTask": "Give Bath",
+      "duration": "20 minutes",
+      "date": "2024-12-25",
+      "repeat": "None",
+      "notes": "Use the hypoallergenic shampoo.",
+      "amount": "None",
+      "startTime": "16:00",
+      "endTime": "16:20"
     },
-    "-P4Jkl456mno": {
-      "id": "-P4Jkl456mno",
-      "image": "https://www.freshoffthegrid.com/wp-content/uploads/Blueberry-Banana-Pancakes-15.jpg",
-      "title": "Banana Pancakes",
-      "shortDescription": "Fluffy pancakes with fresh banana slices.",
-      "typeOfMeal": "breakfast",
-      "timeToCook": "20 minutes",
-      "postedAgo": "2 days ago",
-      "user": "morning_munchies",
-      "userPicture": "https://cdn.lucidpic.com/cdn-cgi/image/w=600,format=auto,metadata=none/66e2e5fbe0cca.png",
-      "likes": 350,
-      "comments": 15
+    "-T4WaterRefill123": {
+      "petName": "Monia",
+      "nameOfTask": "Water Refill",
+      "duration": "5 minutes",
+      "date": "2024-12-18",
+      "repeat": "Every day",
+      "notes": "Rinse the bowl before refilling.",
+      "amount": "None",
+      "startTime": "07:00",
+      "endTime": "07:05"
     },
-    "-P5Mno123pqr": {
-      "id": "-P5Mno123pqr",
-      "image": "https://rainbowplantlife.com/wp-content/uploads/2020/04/red-lentil-bolongese-flatlay-closeup-1-of-1.jpg",
-      "title": "Lentil Bolognese",
-      "shortDescription": "Rich lentil sauce served over pasta.",
-      "typeOfMeal": "dinner",
-      "timeToCook": "35 minutes",
-      "postedAgo": "3 days ago",
-      "user": "earthy_eats",
-      "userPicture": "https://cdn.lucidpic.com/cdn-cgi/image/w=600,format=auto,metadata=none/66c4384702f8f.png",
-      "likes": 280,
-      "comments": 10
+    "-T5PlayTime456": {
+      "petName": "Alfred",
+      "nameOfTask": "Play Time",
+      "duration": "15 minutes",
+      "date": "2024-12-21",
+      "repeat": "Every week",
+      "notes": "Use the laser pointer toy.",
+      "amount": "None",
+      "startTime": "18:00",
+      "endTime": "18:15"
     },
-    "-P6Pqr456stu": {
-      "id": "-P6Pqr456stu",
-      "image": "https://www.nestle-cereals.com/mt/sites/g/files/qirczx1041/files/srh_recipes/2db20c4661c9503e2b0ace66b86afb2a.jpg",
-      "title": "Green Smoothie Bowl",
-      "shortDescription": "Refreshing smoothie bowl with fresh fruit.",
-      "typeOfMeal": "snack",
-      "timeToCook": "5 minutes",
-      "postedAgo": "5 days ago",
-      "user": "smoothie_queen",
-      "userPicture": "https://img.freepik.com/premium-photo/woman-with-blue-eyes-smiling-office_893012-122504.jpg",
-      "likes": 150,
-      "comments": 4
+    "-T6BuyFood789": {
+      "petName": "Monia",
+      "nameOfTask": "Buy Food",
+      "duration": "25 minutes",
+      "date": "2024-12-19",
+      "repeat": "None",
+      "notes": "Buy dry food and wet pouches.",
+      "amount": "3 kg",
+      "startTime": "11:00",
+      "endTime": "11:25"
     },
-    "-P7Stu789vwx": {
-      "id": "-P7Stu789vwx",
-      "image": "https://www.aheadofthyme.com/wp-content/uploads/2018/07/vegan-stuffed-peppers.jpg",
-      "title": "Stuffed Bell Peppers",
-      "shortDescription": "Bell peppers stuffed with a savory rice mix.",
-      "typeOfMeal": "dinner",
-      "timeToCook": "30 minutes",
-      "postedAgo": "1 week ago",
-      "user": "veggie_goodness",
-      "userPicture": "https://media.istockphoto.com/id/1126087100/photo/real-chinese-senior-man-with-playful-expression-looking-to-the-side.jpg?s=612x612&w=0&k=20&c=ME_V202E-PkLTIYXyZSsejcbbGoLVjYKQwcFFPck53U=",
-      "likes": 270,
-      "comments": 6
+    "-T7Medication123": {
+      "petName": "Alfred",
+      "nameOfTask": "Medication",
+      "duration": "5 minutes",
+      "date": "2024-12-22",
+      "repeat": "Every morning",
+      "notes": "Give 2ml of oral syrup.",
+      "amount": "None",
+      "startTime": "08:30",
+      "endTime": "08:35"
+    },
+    "-T8VetVisits456": {
+      "petName": "Monia",
+      "nameOfTask": "Vet Visits",
+      "duration": "25 minutes",
+      "date": "2024-12-30",
+      "repeat": "None",
+      "notes": "Annual checkup and vaccinations.",
+      "amount": "None",
+      "startTime": "10:00",
+      "endTime": "10:25"
+    },
+    "-T9Walks789": {
+      "petName": "Alfred",
+      "nameOfTask": "Walks",
+      "duration": "20 minutes",
+      "date": "2024-12-23",
+      "repeat": "Every Sunday",
+      "notes": "Use the red leash for safety.",
+      "amount": "None",
+      "startTime": "17:00",
+      "endTime": "17:20"
     }
   }
 }
