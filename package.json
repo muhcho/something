@@ -99,5 +99,247 @@
       "startTime": "17:00",
       "endTime": "17:20"
     }
+  },
+  "explorer": {
+    "Feeding": {
+      "nameOfTask": "Feeding",
+      "description": "Cats thrive on a regular feeding schedule with the right type and amount of food. Ensure you’re providing age-appropriate meals (kitten, adult, or senior formulas) and adjusting portion sizes based on your cat’s weight and activity level. Avoid overfeeding to prevent obesity and provide fresh food at each feeding time.",
+      "recommendation": "How Much to Feed: Kittens (under 1 year): Feed 3–4 small meals daily. Adult cats (1–7 years): Feed 2 meals daily, following the guidelines on your cat food packaging (usually 20–30 calories per pound of body weight). Senior cats (7+ years): Adjust based on activity level and health, consulting your vet for specific needs.",
+      "frequency": "1-2 times per day, depending on your cat’s age and health.",
+      "image": "https://example.com/feeding.jpg"
+    },
+    "Clean Toilet": {
+      "nameOfTask": "Clean Toilet",
+      "description": "A clean litter box is essential for your cat's comfort and hygiene. Scoop out waste daily and completely change the litter every 1-2 weeks, depending on the type of litter you use. Use soap and water to clean the box and ensure it’s placed in a quiet, private location for your cat.",
+      "recommendation": "Scoop the litter box daily. Replace all litter and deep clean the box every 1–2 weeks. Use unscented litter and avoid abrupt changes to litter type.",
+      "frequency": "Scoop the litter box daily.",
+      "image": "https://example.com/clean-toilet.jpg"
+    },
+    "Give Bath": {
+      "nameOfTask": "Give Bath",
+      "description": "While most cats groom themselves, occasional baths may be necessary if your cat gets into something sticky or dirty. Use cat-safe shampoo and lukewarm water, ensuring a calm environment. Dry your cat thoroughly with a towel or a pet-safe dryer on a low setting.",
+      "recommendation": "Avoid bathing more than once every 4–6 weeks. Short-haired cats rarely need baths, while long-haired cats may need more frequent grooming.",
+      "frequency": "Only when necessary.",
+      "image": "https://example.com/give-bath.jpg"
+    },
+    "Water Refill": {
+      "nameOfTask": "Water Refill",
+      "description": "Fresh water is crucial for your cat's health. Check and refill their water bowl or fountain daily, ensuring it’s clean and free of debris. Cats are often more encouraged to drink from running water, so a cat water fountain might be a good option.",
+      "recommendation": "Wash and refill their water bowl or clean their fountain daily. Cats need about 3.5–4.5 ounces of water per 5 pounds of body weight daily.",
+      "frequency": "Daily.",
+      "image": "https://example.com/water-refill.jpg"
+    },
+    "Play Time": {
+      "nameOfTask": "Play Time",
+      "description": "Cats need mental stimulation and exercise to stay happy and healthy. Dedicate at least 10–20 minutes a day for interactive play using toys like laser pointers, feather wands, or balls. Rotate toys to keep things interesting and engage their natural hunting instincts.",
+      "recommendation": "Play helps reduce stress, prevents obesity, and supports mental stimulation. Use toys that mimic prey movements to engage your cat’s instincts.",
+      "frequency": "Daily, 10–20 minutes.",
+      "image": "https://example.com/play-time.jpg"
+    },
+    "Reminders to Buy Food": {
+      "nameOfTask": "Reminders to Buy Food",
+      "description": "Stay stocked up on your cat’s favorite food to avoid disruptions to their feeding routine. Keep track of how much food you have left and set reminders to reorder or purchase more before you run out.",
+      "recommendation": "Dry food: Replenish a 5-lb bag every 4–6 weeks. Wet food: Stock up weekly or biweekly. Keep an extra week’s supply to avoid running out unexpectedly.",
+      "frequency": "Based on consumption rate.",
+      "image": "https://example.com/buy-food.jpg"
+    },
+    "Medication": {
+      "nameOfTask": "Medication",
+      "description": "If your cat is on medication, consistent dosing is key. Follow your vet’s instructions carefully, whether it’s pills, topical treatments, or injections. Use reminders to ensure you never miss a dose.",
+      "recommendation": "Follow vet instructions. Pills: Daily or twice daily. Topical treatments: Monthly. Injections: Weekly or yearly as prescribed.",
+      "frequency": "As prescribed by vet.",
+      "image": "https://example.com/medication.jpg"
+    },
+    "Vet Visits": {
+      "nameOfTask": "Vet Visits",
+      "description": "Regular vet checkups are crucial for your cat’s health. Kittens and senior cats may need more frequent visits, while healthy adults can usually go annually. Schedule appointments for vaccinations, dental checkups, and any concerns you have about their behavior or well-being.",
+      "recommendation": "Annual check for healthy adults. Biannual for senior cats. Monthly reminders for special treatments.",
+      "frequency": "Based on health needs.",
+      "image": "https://example.com/vet-visits.jpg"
+    }
+  },
+  "animals": {
+    "-A1Fluffy123": {
+      "name": "Fluffy",
+      "adjective": "sweet",
+      "needs": "Needs donations for toys and medication",
+      "image": "https://example.com/cat-fluffy.jpg",
+      "shelter": {
+        "name": "Dyrenes Beskyttelse",
+        "location": "Aarhus",
+        "logo": "https://example.com/logo-dyrenes.jpg"
+      }
+    },
+    "-A2Whiskers456": {
+      "name": "Whiskers",
+      "adjective": "curious",
+      "needs": "Needs donations for food and vaccinations",
+      "image": "https://example.com/cat-whiskers.jpg",
+      "shelter": {
+        "name": "Pet House",
+        "location": "Copenhagen",
+        "logo": "https://example.com/logo-pethouse.jpg"
+      }
+    },
+    "-A3Mittens789": {
+      "name": "Mittens",
+      "adjective": "playful",
+      "needs": "Needs donations for bedding and litter",
+      "image": "https://example.com/cat-mittens.jpg",
+      "shelter": {
+        "name": "Human Society",
+        "location": "Aarhus",
+        "logo": "https://example.com/logo-human-society.jpg"
+      }
+    },
+    "-A4Luna123": {
+      "name": "Luna",
+      "adjective": "gentle",
+      "needs": "Needs donations for surgery and recovery care",
+      "image": "https://example.com/cat-luna.jpg",
+      "shelter": {
+        "name": "Dyrenes Beskyttelse",
+        "location": "Aarhus",
+        "logo": "https://example.com/logo-dyrenes.jpg"
+      }
+    },
+    "-A5Simba456": {
+      "name": "Simba",
+      "adjective": "majestic",
+      "needs": "Needs donations for food and toys",
+      "image": "https://example.com/cat-simba.jpg",
+      "shelter": {
+        "name": "Pet House",
+        "location": "Copenhagen",
+        "logo": "https://example.com/logo-pethouse.jpg"
+      }
+    },
+    "-A6Oliver789": {
+      "name": "Oliver",
+      "adjective": "charming",
+      "needs": "Needs donations for medical treatments and food",
+      "image": "https://example.com/cat-oliver.jpg",
+      "shelter": {
+        "name": "Human Society",
+        "location": "Aarhus",
+        "logo": "https://example.com/logo-human-society.jpg"
+      }
+    },
+    "-A7Milo123": {
+      "name": "Milo",
+      "adjective": "friendly",
+      "needs": "Needs donations for vaccinations and bedding",
+      "image": "https://example.com/cat-milo.jpg",
+      "shelter": {
+        "name": "Dyrenes Beskyttelse",
+        "location": "Aarhus",
+        "logo": "https://example.com/logo-dyrenes.jpg"
+      }
+    },
+    "-A8Bella456": {
+      "name": "Bella",
+      "adjective": "little",
+      "needs": "Needs donations for toys and medical checkups",
+      "image": "https://example.com/cat-bella.jpg",
+      "shelter": {
+        "name": "Pet House",
+        "location": "Copenhagen",
+        "logo": "https://example.com/logo-pethouse.jpg"
+      }
+    },
+    "-A9Charlie789": {
+      "name": "Charlie",
+      "adjective": "fluffy",
+      "needs": "Needs donations for food and a warm bed",
+      "image": "https://example.com/cat-charlie.jpg",
+      "shelter": {
+        "name": "Human Society",
+        "location": "Aarhus",
+        "logo": "https://example.com/logo-human-society.jpg"
+      }
+    },
+    "-A10Cleo123": {
+      "name": "Cleo",
+      "adjective": "tiny",
+      "needs": "Needs donations for medical treatment and care",
+      "image": "https://example.com/cat-cleo.jpg",
+      "shelter": {
+        "name": "Dyrenes Beskyttelse",
+        "location": "Aarhus",
+        "logo": "https://example.com/logo-dyrenes.jpg"
+      }
+    }
+  }, 
+  "challenges": {
+    "-C1CatHat123": {
+      "name": "John",
+      "image": "https://example.com/user-john.jpg",
+      "postImage": "https://example.com/cat-with-hat.jpg",
+      "description": "Meet Whiskers, the dapper cat with a stylish top hat! He loves posing for pictures and showing off his charming personality.",
+      "postTime": "2 min ago"
+    },
+    "-C2FunnyPaws456": {
+      "name": "Sarah",
+      "image": "https://example.com/user-sarah.jpg",
+      "postImage": "https://example.com/cat-funny-paws.jpg",
+      "description": "This is Luna, the queen of funny poses. She decided to wear a mini sombrero today and owns it like a true diva!",
+      "postTime": "10 min ago"
+    },
+    "-C3MajesticSimba789": {
+      "name": "Emma",
+      "image": "https://example.com/user-emma.jpg",
+      "postImage": "https://example.com/cat-majestic-simba.jpg",
+      "description": "Simba rocks a crown like a true king! This majestic cat never misses a chance to show his royal attitude.",
+      "postTime": "30 min ago"
+    },
+    "-C4PlayfulOliver123": {
+      "name": "Mike",
+      "image": "https://example.com/user-mike.jpg",
+      "postImage": "https://example.com/cat-playful-oliver.jpg",
+      "description": "Oliver is all about fun and games. Today, he decided to wear a tiny bowtie for extra charm. Who can resist that face?",
+      "postTime": "1 hour ago"
+    },
+    "-C5FluffyMittens456": {
+      "name": "Sophia",
+      "image": "https://example.com/user-sophia.jpg",
+      "postImage": "https://example.com/cat-fluffy-mittens.jpg",
+      "description": "Mittens loves dressing up for every occasion! Here she is in her cozy winter hat, ready to snuggle by the fire.",
+      "postTime": "2 hours ago"
+    },
+    "-C6AdventurousLuna789": {
+      "name": "Chris",
+      "image": "https://example.com/user-chris.jpg",
+      "postImage": "https://example.com/cat-adventurous-luna.jpg",
+      "description": "Luna is always up for an adventure! Today, she's exploring the garden in her safari hat. Watch out, world!",
+      "postTime": "5 hours ago"
+    },
+    "-C7CozyBella123": {
+      "name": "Anna",
+      "image": "https://example.com/user-anna.jpg",
+      "postImage": "https://example.com/cat-cozy-bella.jpg",
+      "description": "Bella is all about comfort and cuteness. Her fluffy hat makes her look even cozier, don't you think?",
+      "postTime": "1 day ago"
+    },
+    "-C8FashionCharlie456": {
+      "name": "Liam",
+      "image": "https://example.com/user-liam.jpg",
+      "postImage": "https://example.com/cat-fashion-charlie.jpg",
+      "description": "Charlie never steps out without his signature beret. A true fashion icon in the feline world!",
+      "postTime": "2 days ago"
+    },
+    "-C9ElegantCleo789": {
+      "name": "Mia",
+      "image": "https://example.com/user-mia.jpg",
+      "postImage": "https://example.com/cat-elegant-cleo.jpg",
+      "description": "Cleo, the picture of elegance, loves her pearl necklace. She knows how to make every moment a photo-op!",
+      "postTime": "3 days ago"
+    },
+    "-C10HappyBoots123": {
+      "name": "Noah",
+      "image": "https://example.com/user-noah.jpg",
+      "postImage": "https://example.com/cat-happy-boots.jpg",
+      "description": "Boots is always full of joy! His party hat and cheeky grin say it all. Let's celebrate life with this cutie!",
+      "postTime": "4 days ago"
+    }
   }
 }
